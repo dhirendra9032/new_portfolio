@@ -1,0 +1,164 @@
+.main-conatainer{
+    width: 100%;
+    display: flex;
+    padding:4% ;
+    
+}
+
+.info-holder{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.info-holder div{
+    margin: 15px 0;
+}
+
+.social-media-contacts a{
+    width: 60px;
+    font-size: 8rem;
+    margin: 0 10px;
+}
+
+
+
+
+
+.heading p{
+    font-size: 10rem;
+    font-weight: 600;
+}
+
+.form-holder{
+ width: 40%;
+}
+
+.form-holder form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.form-holder form input{
+    width: 60%;
+    margin: 2% auto;
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    font-size: 3rem;
+    background: transparent;
+    border: 2px solid #334658;
+
+}
+.form-holder form textarea{
+    width: 60%;
+    margin: 5% auto;
+    outline: none;
+    height: 150px;
+    padding: 10px;
+    font-size: 3rem;
+    background: transparent;
+    border: 2px solid #334658;
+
+}
+
+.form-holder form button{
+    width: 100px;
+    height: 40px;
+    margin: 5% auto;
+    border: 2px solid #334658;
+    border-radius: 10px;
+    background: #239B56;
+}
+
+@media(max-width:900px){
+    .info-holder{
+        width: 50%;
+        
+        margin: 7rem auto;
+    }
+    .form-holder{
+        width: 50%;
+        margin: 5rem auto;
+    }
+    .heading p{
+        font-size: 8rem;
+    }
+    .main-conatainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-holder form{
+        width: 100%;
+    }
+
+    .form-holder form input{
+        width: 100%;
+    }
+    .form-holder form textarea{
+        width: 100%;
+    }
+}
+
+@media(max-width:768px){
+    .info-holder{
+        width: 100%;
+        text-align: center;
+        margin: 10rem auto;
+    }
+    .form-holder{
+        width: 100%;
+        margin: 10rem auto;
+    }
+    .heading p{
+        font-size: 6rem;
+    }
+    .main-conatainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-holder form input{
+        width: 80%;
+    }
+    .form-holder form textarea{
+        width: 80%;
+    }
+}
+
+@media(max-width:520px){
+    .info-holder{
+        width: 100%;
+        text-align: center;
+        margin: 5rem auto;
+        font-size: 2.5rem;
+    
+    }
+    .form-holder{
+        width: 100%;
+        margin: 5rem auto;
+    }
+    .main-conatainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading p{
+        font-size: 5rem;
+    }
+
+    .form-holder form input{
+        width: 80%;
+    }
+    .form-holder form textarea{
+        width: 80%;
+    }
+}
+
+
+
+

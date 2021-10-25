@@ -1,0 +1,269 @@
+.main-conatiner{
+    width: 100%;
+    text-align: center;
+}
+
+.main-conatiner h1{
+    font-size: 8rem;
+    font-weight: 600;
+
+}
+
+.project-container{
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-detail{
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid rgb(40, 47, 65);
+}
+
+.project-detail img{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.project-detail h3{
+    text-align: left;
+    font-size: 3rem;
+
+}
+.project-detail p{
+    text-align: left;
+    font-size: 2.5rem;
+
+}
+
+.tech{ 
+    
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 5rem;
+}
+
+.links{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+
+.links div{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 4rem;
+    border: 1px solid rgb(40, 47, 65);
+}
+
+.linkd div:hover {
+    font-size:5rem ;
+}
+
+@media(max-width:768px){
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-detail{
+        width: 90%;
+        margin: 10rem auto;
+    }
+    .teck{
+        width: 100%;
+    }
+    .links{
+        width: 100%;
+    }
+}
+
+.wrapper{
+    width: 100%;
+    padding: 5% 10%;
+    display: flex;
+}
+.img-wrapper{
+    width: 40%;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(235, 235, 235);
+}
+.img-wrapper img{
+   width: 100%;
+   border-radius: 10px;
+   height: 250px;
+
+}
+
+.detail-wrapper{
+    width: 60%;
+    height: 250px;
+    padding: 0 30px;
+}
+.detail-wrapper h1{
+    font-size: 5rem;
+}
+.detail-wrapper h3{
+    font-size: 2.6rem;
+    font-weight: 400;
+}
+.detail-wrapper .teck-stack{
+    display: flex;
+}
+.detail-wrapper button{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    background: linear-gradient(to right,transparent 50%,#05a8a8  50%);
+    box-shadow: 0px 0px 10px rgba(117,117,117);
+    background-size: 200%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px  20px 20px 0;
+    letter-spacing: 1px;
+    background-position: left;
+    transition: 0.3s;
+}
+.detail-wrapper  button:hover{
+    
+    background-position: right;
+   
+    color: #fa7c07 ;
+    transition: 0.3s
+    
+ }
+
+ .detail-wrapper p{
+
+    font-size: 2.5rem;
+    margin-right: 10px;
+    font-weight: 600;
+    color: detail-wrapper;
+
+ }
+ @media(max-width:1048px){
+    .wrapper{
+        padding: 20px 50px;
+    }
+    .main-conatiner h1{
+        font-size: 4rem;
+    }
+    .img-wrapper{
+        width: 50%;
+        margin-bottom: 20px;
+        height: 200px;
+    }
+    .img-wrapper img{
+        height: 200px;
+    }
+
+    .detail-wrapper{
+        width: 50%;
+        padding: 0 30px;
+    }
+    .detail-wrapper h1{
+        font-size: 3rem;
+    }
+    .detail-wrapper h3{
+       font-size: 2rem;
+       text-align: justify;
+   }
+   .detail-wrapper button{
+       width: 100px;
+   }
+   .detail-wrapper p{
+       font-size: 1.8rem;
+   }
+}
+
+
+ @media(max-width:840px){
+    .wrapper{
+        padding: 20px 50px;
+    }
+    .main-conatiner h1{
+        font-size: 4rem;
+    }
+    .img-wrapper{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 180px;
+    }
+    .img-wrapper img{
+        height: 180px;
+    }
+
+    .detail-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+    .detail-wrapper h1{
+        font-size: 3rem;
+    }
+    .detail-wrapper h3{
+       font-size: 2rem;
+       text-align: justify;
+   }
+   .detail-wrapper button{
+       width: 100px;
+   }
+   .detail-wrapper p{
+       font-size: 1.8rem;
+   }
+}
+
+
+ @media(max-width:520px){
+    .wrapper{
+        padding: 20px 30px;
+    }
+    .main-conatiner h1{
+        font-size: 4rem;
+    }
+    .img-wrapper{
+        width: 100%;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+    .img-wrapper img{
+        height: 150px;
+    }
+
+    .detail-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+    .detail-wrapper h1{
+        font-size: 3rem;
+    }
+    .detail-wrapper h3{
+       font-size: 2rem;
+       text-align: justify;
+   }
+   .detail-wrapper button{
+       width: 100px;
+   }
+   .detail-wrapper p{
+       font-size: 1.8rem;
+   }
+}
+
+
+
+
