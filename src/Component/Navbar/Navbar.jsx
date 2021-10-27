@@ -33,11 +33,12 @@ const Navbar = ({ color }) => {
               <Link onClick={() => { setShowMediaIcons(false) }} className="link" to="/projects" style={color === "project" ? { color: "#fff" } : { color: "#1ee273" }}>Project</Link>
             </li>
             <li>
-              <Link onClick={() => { setShowMediaIcons(false) }} className="link" to="/contact" style={color === "contact" ? { color: "#fff" } : { color: "#1ee273" }}>Contact</Link>
-            </li>
-            <li>
               <Link onClick={() => { setShowMediaIcons(false) }} className="link" to="/Skills" style={color === "skills" ? { color: "#fff" } : { color: "#1ee273" }}>Skills</Link>
             </li>
+            <li>
+              <Link onClick={() => { setShowMediaIcons(false) }} className="link" to="/contact" style={color === "contact" ? { color: "#fff" } : { color: "#1ee273" }}>Contact</Link>
+            </li>
+
             <li></li>
           </ul>
         </div>

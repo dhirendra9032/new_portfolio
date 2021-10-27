@@ -33,12 +33,14 @@ const App = () => {
         <Project handleMenu={handleMenu} showMediaIcons={showMediaIcons} />
       </Route>
 
-      <Route path="/contact">
-        <ContactPage handleMenu={handleMenu} showMediaIcons={showMediaIcons} />
-      </Route>
       <Route path="/skills">
         <Skills handleMenu={handleMenu} showMediaIcons={showMediaIcons} />
       </Route>
+
+      <Route path="/contact">
+        <ContactPage handleMenu={handleMenu} showMediaIcons={showMediaIcons} />
+      </Route>
+      
     </Switch>
   );
 };
