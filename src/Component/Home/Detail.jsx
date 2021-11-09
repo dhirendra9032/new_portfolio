@@ -22,7 +22,7 @@ const Detail = () => {
             <a href="https://www.linkedin.com/in/dhirendra-kumar-9b6986148/" target="_blank" rel="noreferrer"><FaLinkedin className="linkedin"/></a>
             <a href="https://twitter.com/dhirendrakr9032" target="_blank" rel="noreferrer"><FaTwitterSquare/></a>
             </div>
-            <div className="homebtn"><button><a href="https://drive.google.com/uc?export=download&id=1T0Au1Tv_C8P5Ad7qo7zTg5ht1u0bds9Y">Download CV</a></button></div>
+            <div className="homebtn"><button><a href="https://export-download.canva.com/G02bU/DAEvJHG02bU/861/0-11863128096.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20211109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211109T064812Z&X-Amz-Expires=40105&X-Amz-Signature=e9d6328972a00730e5551ffecb41ddace3e838e9d7190d6cdeeaadc129a6c495&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Dhirendra%2520Kumar%2520Resume.pdf&response-expires=Tue%2C%2009%20Nov%202021%2017%3A56%3A37%20GMT">Download CV</a></button></div>
         </div>
     )
 }

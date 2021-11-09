@@ -17,7 +17,7 @@ export const Skills = () => {
             <div className="skills">
                 {
                     frontend.map((item, index) => {
-                        return <div>
+                        return <div key={item.id}>
                             <img src={item.img} alt="png" />
                             <p>{item.name}</p>
                         </div>

@@ -8,7 +8,7 @@ export const project = [
         detail: "Groww is an online investment platform that allows user to invest in mutual funds and stocks. User can login/register ,buy stock, add amount to wallet.",
         demo: "https://growww-app.herokuapp.com/",
         github: "https://github.com/santoshmcode/groww-clone",
-        teck_stack: ["HTML", "CSS", "Javascript", "Express", "MongoDB"]
+        teck_stack: ["HTML","|", "CSS","|", "Javascript","|", "Express","|", "MongoDB"]
 
     },
     {
@@ -17,7 +17,7 @@ export const project = [
         detail: "trivago is a hotel search with an extensive price comparison. User can login/register , search hotel and book the hotel",
         demo: "https://trivagoclone.netlify.app/",
         github: "https://github.com/dhirendra9032/TrivagoClone/tree/master/trivago_clone",
-        teck_stack: ["React Js", "CSS", "Node Js"]
+        teck_stack: ["React","|", "CSS","|", "Node Js","|", "Mock Server"]
 
     }
 

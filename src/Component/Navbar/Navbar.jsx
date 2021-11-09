@@ -49,7 +49,7 @@ const Navbar = ({ color }) => {
 
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
-            <span onClick={() => setShowMediaIcons(!showMediaIcons)} class="fa fa-bars">
+            <span onClick={() => setShowMediaIcons(!showMediaIcons)} className="fa fa-bars">
 
             </span>
           </div>

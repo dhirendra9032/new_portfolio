@@ -14,46 +14,57 @@ import express from "../Skills/skillImages/express.png"
 export const frontend=[
    
     {
+        id:1,
         img:html,
         name:"HTML"
     },
     {
+        id:2,
         img:css,
         name:"CSS"
     },
     {
+        id:3,
         img:javascript,
         name:"Javascript"
     },
     {
+        id:4,
         img:react,
         name:"React js"
     },
     {
+        id:5,
         img:redux,
         name:"Redux"
     },
     {
+        id:6,
         img:bootstrap,
         name:"Bootstrap"
     },
     {
+        id:7,
         img:nodejs,
         name:"Node Js"
     },
     {
+        id:8,
         img:express,
         name:"Express"
     },
     {
+        id:9,
         img:mongodb,
         name:"MongoDB"
     },
     {
+        id:10,
         img:github,
         name:"Github"
     },
     {
+        id:11,
         img:npm,
         name:"Npm"
     }
