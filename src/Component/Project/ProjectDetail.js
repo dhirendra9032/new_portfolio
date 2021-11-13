@@ -7,7 +7,7 @@ export const project = [
         name: "Groww Website Clone",
         detail: "Groww is an online investment platform that allows user to invest in mutual funds and stocks. User can login/register ,buy stock, add amount to wallet.",
         demo: "https://growww-app.herokuapp.com/",
-        github: "https://github.com/santoshmcode/groww-clone",
+        github: "https://github.com/dhirendra9032/groww-clone",
         teck_stack: ["HTML","|", "CSS","|", "Javascript","|", "Express","|", "MongoDB"]
 
     },
