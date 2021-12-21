@@ -13,7 +13,7 @@ export const project = [
     },
     {
         img: gab,
-        name: "Gob Website Clone",
+        name: "Gab Website Clone",
         detail: "Gab is an American alt-tech social networking service known for its far-right user base. User can post new posts and images. User can comment and like on others posts",
         demo: "https://gab-seven.vercel.app",
         github: "https://github.com/dhirendra9032/Gab",
