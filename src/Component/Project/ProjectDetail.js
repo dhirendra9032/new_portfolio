@@ -1,5 +1,5 @@
 import groww from "./groww.png"
-import trivago from "./trivago.png"
+import gab from "./gab.png"
 
 export const project = [
     {
@@ -12,11 +12,11 @@ export const project = [
 
     },
     {
-        img: trivago,
-        name: "Trivago Website Clone",
-        detail: "trivago is a hotel search with an extensive price comparison. User can login/register , search hotel and book the hotel",
-        demo: "https://trivagoclone.netlify.app/",
-        github: "https://github.com/dhirendra9032/TrivagoClone/tree/master/trivago_clone",
+        img: gab,
+        name: "Gob Website Clone",
+        detail: "Gab is an American alt-tech social networking service known for its far-right user base. User can post new posts and images. User can comment and like on others posts",
+        demo: "https://gab-seven.vercel.app",
+        github: "https://github.com/dhirendra9032/Gab",
         teck_stack: ["React","|", "CSS","|", "Node Js","|", "Mock Server"]
 
     }
